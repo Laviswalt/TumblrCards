@@ -40,7 +40,7 @@ void Card::build_card(string arg) {
 		health = 1;
 		cost = 1;
 		currHP = health;
-		ability = "There is a foul stench coming fromthis green glob on the ground.";
+		ability = "There is a foul stench coming from this green glob on the ground.";
 		name = "Ooze";
 	} else if (arg == "Test1") {
 		attack = 4;
